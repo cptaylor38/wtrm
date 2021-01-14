@@ -13,6 +13,7 @@ function App() {
       const url = "https://cat-fact.herokuapp.com/facts";
       const resp = await fetch(url);
       const body = await resp.json();
+      console.log(body);
       setCatFacts(body);
     }
 
@@ -21,7 +22,7 @@ function App() {
   return (
     <>
       <CharacterCounter />
-      {catFacts.map(item => <p>{item}</p>)}
+      {catFacts.length > 0 ? catFacts.map(item => (<p>{item.text}</p>)) : null}
     </>
   );
 }
