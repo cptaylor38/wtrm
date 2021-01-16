@@ -1,29 +1,37 @@
-import React, {useEffect} from 'react';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './index.css';
-import CharacterCounter from './Components/CharacterCounter';
-import { useRecoilState } from 'recoil';
-import { catfacts } from './Recoil/Atoms/testState'
-
+import Nav from './Components/Nav';
+import Home from './Pages/Home';
+import Register from './Pages/Register';
+import Intercom from './Pages/IntercomPlus';
+import Storenet from './Pages/Storenet';
+import AS400 from './Pages/AS400';
+import GeneralOps from './Pages/GeneralOps';
+import Telxon from './Pages/Telxon';
+import Portal from './Pages/Portal';
 
 function App() {
-  const [catFacts, setCatFacts] = useRecoilState(catfacts);
 
-  useEffect(()=> {
-    const getRepos = async () => {
-      const url = "https://cat-fact.herokuapp.com/facts";
-      const resp = await fetch(url);
-      const body = await resp.json();
-      console.log(body);
-      setCatFacts(body);
-    }
-
-    getRepos();
-  })
   return (
-    <>
-      <CharacterCounter />
-      {catFacts.length > 0 ? catFacts.map(item => (<p>{item.text}</p>)) : null}
-    </>
+    <Router>
+      <Nav />
+      <Switch>
+        <Route path='/register'><Register /></Route>
+        <Route path='/intercom'><Intercom /></Route>
+        <Route path='/storenet'><Storenet /></Route>
+        <Route path='/as400'><AS400 /></Route>
+        <Route path='/generalOps'><GeneralOps /></Route>
+        <Route path='/telxon'><Telxon /></Route>
+        <Route path='/portal'><Portal /></Route>
+        <Route path ='/'><Home /></Route>
+        <Route path='*'><Home /></Route>
+      </Switch>
+    </Router>
   );
 }
 

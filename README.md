@@ -5,3 +5,6 @@ Learning exercise for recoil and an opportunity to begin working on a training m
 Going to set up routing, learn a bit more about recoil, and then work on general ui elements before tackling portal, backend, and database stuff.
 
 ![Potential mapping of general site functionality](./wagtrainer/src/Assets/Images/plan.png)
+
+Credits:
+Icon for Nav from https://www.cleanpng.com/png-computer-icons-portable-network-graphics-vector-gr-7234445/download-png.html.
