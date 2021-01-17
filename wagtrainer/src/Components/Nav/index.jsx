@@ -13,7 +13,6 @@ const Nav = () => {
                     <Link className='navLink' to='/as400'>AS400</Link>
                     <Link className='navLink' to='/generalOps'>General Operations</Link>
                     <Link className='navLink' to='/intercom'>Intercom +</Link>
-                    <Link className='navLink' to='/telxon'>Telxon</Link>
                     <Link className='navLink' to='/storenet'>Storenet</Link>
                 </div>
                 <div id='portalNav'>

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title":"Tech Portal",
+        "description":"Portal for technicians to log into, post current openings at their stores or trade shifts.",
+        "specialNotes":"For future development, features still being considered."
+    },
+    {
+        "id": 2,
+        "title":"Register Functions",
+        "description":"An overview with an interactive module for understanding the basic register UI as well as a brief overview of the essential functions.",
+        "specialNotes":"Under development - a suggestion feature for techs to contribute lesser known tricks of the trade."
+    },
+    {
+        "id": 3,
+        "title":"Intercom Plus Module",
+        "description":"A series of modules to understand the UI and essential functions within Intercom+ such as understanding the patient profile, prescription entry, flowometer, and billing and adjudication tips.",
+        "specialNotes":"This will be the largest feature of the site and require constant addition, also debating on gifs versus interactive simulated UI. Long-term, may add a special billing and adjudication section for techs to search by state to get tips on processing certain insurance cards or third party rejections and overrides."
+    },
+    {
+        "id": 4,
+        "title":"Storenet",
+        "description":"A quick rundown of the most common resources needed in Storenet for pharmacy techs and how to find them.",
+        "specialNotes":"As my knowledge is somewhat limited and Storenet can change frequently, this may contain very rudimentary knowledge at the start."
+    },
+    {
+        "id": 5,
+        "title":"AS400",
+        "description":"Common operations pharmacy technicians use in AS400 such as ordering, returns, recalls, salvage, item movement, etc.",
+        "specialNotes":"May combine this module with the telxon module as the system is the same, only slight differences navigation. Will be expanded upon further research of general operations."
+    },
+    {   
+        "id": 6,
+        "title":"General Pharmacy Operations",
+        "description":"A hub for other techs to contribute methodologies and organizational tips that have helped their general workflow, coworker relations, and patient relations.",
+        "specialNotes":"Will require further development and back-end implementation, debating on exact functionality, i.e. forum-style or simple categorized tips manually added for better control over content."
+    }
+]

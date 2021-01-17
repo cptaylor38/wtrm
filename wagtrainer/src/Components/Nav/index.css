@@ -25,21 +25,21 @@
 #portalNav {
   margin-right: 2rem;
   display: flex;
-  padding-top: 0.5rem;
   flex-direction: column;
   align-self: flex-end;
   text-align: center;
+  padding-top: 0.5rem;
 }
 
 #portalLink {
   font-size: 1.5rem;
 }
 
+#portalLink:hover {
+  color: red;
+}
+
 #portalLink > p {
   font-size: 1.2rem;
   margin-top: 0;
-}
-
-#profileIcon {
-  color: red;
 }

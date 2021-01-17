@@ -3,9 +3,9 @@ import './index.css';
 
 const TechPortal = () => {
     return (
-        <>
+        <div className='pageContainer'>
             <p>Tech Portal - feature for later</p>
-        </>
+        </div>
     )
 }
 

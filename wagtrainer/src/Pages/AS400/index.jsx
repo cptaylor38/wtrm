@@ -3,9 +3,9 @@ import './index.css';
 
 const SimsHome = () => {
     return (
-        <>
+        <div className='pageContainer'>
             <p>Sims home</p>
-        </>
+        </div>
     )
 }
 

@@ -12,7 +12,6 @@ import Intercom from './Pages/IntercomPlus';
 import Storenet from './Pages/Storenet';
 import AS400 from './Pages/AS400';
 import GeneralOps from './Pages/GeneralOps';
-import Telxon from './Pages/Telxon';
 import Portal from './Pages/Portal';
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
         <Route path='/storenet'><Storenet /></Route>
         <Route path='/as400'><AS400 /></Route>
         <Route path='/generalOps'><GeneralOps /></Route>
-        <Route path='/telxon'><Telxon /></Route>
         <Route path='/portal'><Portal /></Route>
         <Route path ='/'><Home /></Route>
         <Route path='*'><Home /></Route>
