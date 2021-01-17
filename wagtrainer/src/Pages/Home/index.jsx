@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <div className='pageContainer'>
             <section id='introSection'>
-                <div>
-                    <img src={require("../../Assets/Images/walgreensLogo.png")} alt='Walgreens mortar logo' />
+                <div id='introImg'>
+                    <img src={require('../../Assets/Images/walgreensLogo.png')} alt='Walgreens mortar logo' height='400px' width='400px'/>
                 </div>
                 <div>
                     <p>A community driven training and knowledge resource for Walgreens pharmacy technicians.</p>
