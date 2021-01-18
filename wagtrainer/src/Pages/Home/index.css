@@ -1,6 +1,11 @@
 #introSection {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 4rem 0;
+}
+
+#introDescription {
+  max-width: 40vw;
 }

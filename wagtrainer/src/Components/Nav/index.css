@@ -1,45 +1,24 @@
-.nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  background: cornflowerblue;
+.siteNav {
+  background: cornflowerblue !important;
 }
 
-#mainNav {
-  display: flex;
-  flex: 1;
-  padding: 1rem;
-  justify-content: space-evenly;
-  align-items: flex-end;
-}
-
-.navLink {
-  color: white;
+.siteNavLink {
+  color: white !important;
   font-size: 1.2rem;
 }
 
-.navLink:hover {
-  color: red;
+.siteNavLink:hover {
+  color: rgb(189, 1, 1) !important;
 }
 
-#portalNav {
-  margin-right: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-  text-align: center;
-  padding-top: 0.5rem;
-}
-
-#portalLink {
-  font-size: 1.5rem;
-}
-
-#portalLink:hover {
-  color: red;
-}
-
-#portalLink > p {
+.profileToggle {
+  color: white !important;
+  background: none;
+  outline: none;
+  border: none;
   font-size: 1.2rem;
-  margin-top: 0;
+}
+
+.profileToggle > p {
+  margin-bottom: 0;
 }
