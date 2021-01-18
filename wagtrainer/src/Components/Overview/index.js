@@ -12,7 +12,7 @@ const Overview = ({info}) => {
                 <hr className="my-2" />
                 <p>{info.specialNotes}</p>
                 <p className="lead">
-                    <Button color="primary"><Link to={info.link}>Visit Page</Link></Button>
+                    <Link to={info.link}><Button color="primary">Visit Page</Button></Link>
                 </p>
             </Jumbotron>
         </div>
