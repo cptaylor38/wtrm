@@ -1,0 +1,18 @@
+#registerNav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+.registerOverview {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.registerContainer {
+  padding: 2rem;
+  height: 100vh;
+  padding-top: 20vh;
+}
